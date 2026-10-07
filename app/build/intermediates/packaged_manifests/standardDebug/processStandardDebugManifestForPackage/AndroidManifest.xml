@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emanuelef.remote_capture.debug"
+    android:versionCode="89"
+    android:versionName="1.8.8-beta" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="35" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- https://developer.android.com/preview/privacy/package-visibility -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_CLIPS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <!-- Required with root to properly resolve UIDs cross-users/profiles. Granted via root -->
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.emanuelef.remote_capture.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.emanuelef.remote_capture.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.emanuelef.remote_capture.Aspida"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:banner="@drawable/banner"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/pcapdroid_app_name"
+        android:localeConfig="@xml/locales_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.CaptureCtrl"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Floating" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.prefs.EditCtrlPermissions"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+        <activity android:name="com.emanuelef.remote_capture.activities.OnBoardingActivity" />
+        <activity android:name="com.emanuelef.remote_capture.activities.ErrorActivity" />
+        <activity android:name="com.emanuelef.remote_capture.activities.ConnectionDetailsActivity" />
+        <activity android:name="com.emanuelef.remote_capture.activities.AppDetailsActivity" />
+        <activity android:name="com.emanuelef.remote_capture.activities.ConnectionsActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.AppsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.StatsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.DataUsageActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.prefs.SettingsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.prefs.VpnExemptionsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.prefs.PortMapActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.AboutActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.LogviewActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.MalwareDetection"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.FirewallActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.EditListActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.EditFilterActivity" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.EditFilterActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.MitmSetupWizard"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.emanuelef.remote_capture.activities.AppFilterActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+
+        <service
+            android:name="com.emanuelef.remote_capture.CaptureService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="run the VpnService to monitor network traffic" />
+
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.emanuelef.remote_capture.VpnReconnectService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" >
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="waits for the termination of the active VpnService" />
+        </service>
+
+        <receiver android:name="com.emanuelef.remote_capture.ActionReceiver" />
+        <receiver
+            android:name="com.emanuelef.remote_capture.BootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="com.emanuelef.remote_capture.debug.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.emanuelef.remote_capture.debug.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

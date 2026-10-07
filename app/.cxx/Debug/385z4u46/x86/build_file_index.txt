@@ -1,0 +1,6 @@
+/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/CMakeLists.txt
+/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/common/CMakeLists.txt
+/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/core/CMakeLists.txt
+/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/netflow/CMakeLists.txt
+/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/pcapd/CMakeLists.txt
+/home/prithvi/Documents/programs/android/aspida/submodules/zdtun/CMakeLists.txt

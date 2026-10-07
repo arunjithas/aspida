@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "LINKED_RESOURCES_BINARY_FORMAT",
+    "kind": "Directory"
+  },
+  "applicationId": "com.emanuelef.remote_capture.debug",
+  "variantName": "withoutUsharkDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 89,
+      "versionName": "1.8.8-beta",
+      "outputFile": "linked-resources-binary-format-withoutUsharkDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

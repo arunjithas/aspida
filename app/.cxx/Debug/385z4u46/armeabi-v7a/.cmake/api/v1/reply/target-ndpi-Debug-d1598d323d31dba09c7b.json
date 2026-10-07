@@ -1,0 +1,2414 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/armeabi-v7a/libndpi.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"core/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -g -fPIC -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NDPI_LIB_COMPILATION"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NDPI_SLIM"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__bswap_64=bswap_64"
+				},
+				{
+					"define" : "ndpi_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/zdtun"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/nDPI/src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/nDPI/src/lib/third_party/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/prithvi/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "ndpi::@57760688d1f824db5d9c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "/home/prithvi/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "ndpi",
+	"nameOnDisk" : "libndpi.so",
+	"paths" : 
+	{
+		"build" : "core",
+		"source" : "core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				279
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_analyze.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_classify.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_community_id.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_domain_classify.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_domains.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_geoip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_serializer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/ndpi_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ahocorasick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ball.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/gcrypt_light.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/kdtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/libcache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ndpi_md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ndpi_patricia.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ndpi_sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/ndpi_sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/sha1-fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/shoco.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/strptime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/hll/MurmurHash3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/third_party/src/hll/hll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/activision.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/afp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ajp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/alicloud.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/amazon_video.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/among_us.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/amqp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/apple_push.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/armagetron.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/atg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/avast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/avast_securedns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bacnet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/beckhoff_ads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bfcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bfd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bgp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bitcoin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bittorrent.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/bjnp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/btlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/c1222.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/capwap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cassandra.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ceph.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/checkmk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ciscovpn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/citrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cloudflare_warp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cnp-ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/coap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cod_mobile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/collectd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/corba.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/cpha.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/crossfire.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/crynet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dcerpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dhcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dhcpv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/diameter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dicom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dingtalk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/discord.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dlep.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dnp3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dnscrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dofus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/drda.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/dropbox.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/eaq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/edonkey.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/egd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/elastic_search.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/epicgames.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ethereum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ethernet_ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ethersbus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ethersio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/fastcgi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/fins.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/fix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/flute.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ftp_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ftp_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/gaijin_entertainment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/gearman.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/genshin_impact.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/git.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/gnutella.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/gtp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/guildwars.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/h323.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/halflife2_and_mods.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/haproxy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hart-ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hislip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hl7.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hots.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hpvirtgrp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/hsrp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/http.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/http2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/i3d.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/iax.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/icecast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/iec60870-5-104.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/iec62056.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ieee-c37118.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/imo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ipp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ipsec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/iqiyi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/irc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/iso9506-1-mms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/jabber.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/jrmi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/json-rpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/kafka.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/kakaotalk_voice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/kcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/kerberos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/kismet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/knxnet_ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ldap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ldp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/line.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/lisp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/lol_wild_rift.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/lotus_notes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/lustre.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mail_imap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mail_pop.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mail_smtp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/maplestory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/megaco.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/memcached.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/merakicloud.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mgcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mikrotik.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mining.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/modbus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/monero.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mongodb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mpegdash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mpegts.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mqtt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mssql_tds.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mumble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/munin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/mysql.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nano.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/natpmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nest_log_sink.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/netbios.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/netease_games.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/netflow.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nfs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nintendo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/noe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/nomachine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/non_tcp_udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ntp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/oicq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ookla.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/opc-ua.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/openflow.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/openvpn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/openwire.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/oracle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/paltalk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/path_of_exile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/pfcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/postgres.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/pptp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/profinet_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/protobuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ptpv2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/qq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/quic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/radius_proto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/radmin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/raft.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/raknet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rdp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/resp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/riotgames.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ripe_atlas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rmcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/roughtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rsh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rsync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rtmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rtp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rtps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rtsp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/rx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/s7comm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/sd_rtn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/sflow.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/sip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/skinny.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/slp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/smb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/smpp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/snmp_proto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/soap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/socks45.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/softether.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/someip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/sonos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/source_engine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/spotify.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ssdp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ssh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/starcraft.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/steam.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/steam_datagram_relay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/stomp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/stun.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/syncthing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/syslog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tailscale.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tcp_udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/teamspeak.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/teamviewer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/telegram.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/telnet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tencent_games.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/teredo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/teso.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tftp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/threema.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/thrift.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tinc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tivoconnect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tocaboca.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tplink_shp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/trdp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/tuya_lp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ubntac2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/uftp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/ultrasurf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/usenet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/vhua.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/viber.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/vmware.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/vnc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/vxlan.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/warcraft3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/websocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/whatsapp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/whoisdas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/wireguard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/world_of_kung_fu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/world_of_warcraft.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/wsd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/xbox.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/xdmcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/xiaomi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/yojimbo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/z3950.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/zabbix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/zattoo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/zeromq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/zoom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/lib/protocols/zug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/nDPI/src/include/ndpi_api.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

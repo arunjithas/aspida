@@ -1,0 +1,249 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "zdtun_build",
+					"jsonFile" : "directory-zdtun_build-Debug-2d4879d4ae3b6d67703b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/prithvi/Documents/programs/android/aspida/submodules/zdtun",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "netflow",
+					"jsonFile" : "directory-netflow-Debug-a59e14f9dcf9a536f451.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "netflow",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "pcapd",
+					"jsonFile" : "directory-pcapd-Debug-af28c67cda2528f0242b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "pcapd",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				},
+				{
+					"build" : "core",
+					"jsonFile" : "directory-core-Debug-eac7e466be7743a8be0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspida"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "C",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "netflow",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "pcapd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "core",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "capture::@57760688d1f824db5d9c",
+					"jsonFile" : "target-capture-Debug-8ee4120ad8faacd36210.json",
+					"name" : "capture",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-266d27aa3c18d18bfbf0.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libpcapd.so::@fbe3c65a18bf2cd355be",
+					"jsonFile" : "target-libpcapd.so-Debug-63196f1d6064c4d63a4f.json",
+					"name" : "libpcapd.so",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ndpi::@57760688d1f824db5d9c",
+					"jsonFile" : "target-ndpi-Debug-d1598d323d31dba09c7b.json",
+					"name" : "ndpi",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "netflow::@3eccbb2226ce57e5b79d",
+					"jsonFile" : "target-netflow-Debug-bcc02d951ced79d769b1.json",
+					"name" : "netflow",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pcap::@fbe3c65a18bf2cd355be",
+					"jsonFile" : "target-pcap-Debug-8cb1dae167e629659fca.json",
+					"name" : "pcap",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zdtun::@40085d86cd9d0ebb510f",
+					"jsonFile" : "target-zdtun-Debug-5fa3e8ec76fa7c502844.json",
+					"name" : "zdtun",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/armeabi-v7a",
+		"source" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

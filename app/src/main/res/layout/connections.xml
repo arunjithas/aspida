@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/connections"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Older-connections info banner -->
+        <TextView
+            android:id="@+id/old_connections_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:background="@drawable/notice_banner_bg"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:text="74 older connections not shown" />
+
+        <!-- Active filter chips -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/active_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="4dp"
+            android:visibility="gone"
+            app:singleSelection="true" />
+
+        <!-- Size filter slider -->
+        <com.google.android.material.slider.Slider
+            android:id="@+id/size_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            app:thumbColor="@color/colorAccent"
+            app:trackColorActive="@color/colorAccent"
+            app:trackColorInactive="@color/colorAccentLight"
+            app:labelBehavior="visible"
+            android:valueFrom="0"
+            android:valueTo="1024"
+            android:stepSize="1"
+            android:visibility="gone"
+            tools:value="100"
+            tools:valueTo="1024" />
+
+        <!-- Empty state: shield icon above text via drawableTop -->
+        <TextView
+            android:id="@+id/no_connections"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_shield"
+            android:drawablePadding="16dp"
+            android:drawableTint="@color/sectionDivider"
+            android:textSize="15sp"
+            android:textColor="@color/lightGray"
+            tools:text="@string/start_capture_first" />
+
+        <!-- Connections RecyclerView -->
+        <com.emanuelef.remote_capture.views.EmptyRecyclerView
+            android:id="@+id/connections_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp"
+            android:fillViewport="true" />
+    </LinearLayout>
+
+    <!-- FAB scroll-to-bottom -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:tint="@null"
+        app:maxImageSize="48dp"
+        app:elevation="6dp"
+        android:src="@drawable/ic_arrow_drop_down" />
+</RelativeLayout>

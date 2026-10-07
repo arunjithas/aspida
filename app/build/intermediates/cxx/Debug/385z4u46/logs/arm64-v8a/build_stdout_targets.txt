@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a'
+ninja: no work to do.

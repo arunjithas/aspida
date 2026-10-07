@@ -1,0 +1,261 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "pcapd/libpcap.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"pcapd/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -fPIC -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/zdtun"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/nDPI/src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/nDPI/src/lib/third_party/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/../../../../submodules/libpcap"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"sysroot" : 
+			{
+				"path" : "/media/prithvi/ubuntu_bk/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "pcap::@fbe3c65a18bf2cd355be",
+	"name" : "pcap",
+	"nameOnDisk" : "libpcap.a",
+	"paths" : 
+	{
+		"build" : "pcapd",
+		"source" : "pcapd"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/pcap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/pcap-common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/pcap-util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/sf-pcap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/sf-pcapng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/pcap-linux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/fad-gifc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/nametoaddr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/etherent.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/savefile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/fmtutils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/gencode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/grammar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/scanner.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/bpf_filter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/optimize.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/prithvi/Documents/programs/android/aspida/submodules/libpcap/missing/strlcpy.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

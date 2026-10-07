@@ -1,0 +1,4 @@
+com.emanuelef.remote_capture.test.app-standard-0 /home/babayaga/Documents/arun/cyber_Security/android/Aspida/app/build/generated/res/resValues/androidTest/standard/debug
+com.emanuelef.remote_capture.test.app-mergeStandardDebugAndroidTestResources-1 /home/babayaga/Documents/arun/cyber_Security/android/Aspida/app/build/intermediates/incremental/standardDebugAndroidTest/mergeStandardDebugAndroidTestResources/merged.dir
+com.emanuelef.remote_capture.test.app-mergeStandardDebugAndroidTestResources-2 /home/babayaga/Documents/arun/cyber_Security/android/Aspida/app/build/intermediates/incremental/standardDebugAndroidTest/mergeStandardDebugAndroidTestResources/stripped.dir
+com.emanuelef.remote_capture.test.app-standardDebugAndroidTest-3 /home/babayaga/Documents/arun/cyber_Security/android/Aspida/app/build/intermediates/merged_res/standardDebugAndroidTest/mergeStandardDebugAndroidTestResources

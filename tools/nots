@@ -1,0 +1,62 @@
+
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 74
+   D  netflow hex_val: a3
+   D  netflow hex_val: b6
+   D  netflow hex_val: 40
+   D  netflow hex_val: 0
+   D  netflow hex_val: 40
+   D  netflow hex_val: 11
+   D  netflow hex_val: 1d
+   D  netflow hex_val: 3a
+   D  netflow hex_val: a
+   D  netflow hex_val: d7
+   D  netflow hex_val: ad
+   D  netflow hex_val: 1
+   D  netflow hex_val: c0
+   D  netflow hex_val: a8
+   D  netflow hex_val: 1
+   D  netflow hex_val: 8
+   D  netflow hex_val: 9d
+   D  netflow hex_val: 64
+   D  netflow hex_val: 8
+   D  netflow hex_val: 7
+   D  netflow hex_val: 0
+   D  netflow hex_val: 60
+   D  netflow hex_val: 72
+   D  netflow hex_val: a5
+   D  netflow hex_val: 0
+   D  netflow hex_val: 9
+   D  netflow hex_val: 0
+   D  netflow hex_val: 1
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 6a
+   D  netflow hex_val: ec
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D  netflow hex_val: 0
+   D   netflow:  40:00:40:11:1d:3a
+   D   netflow:  45:00:00:74:a3:b6
+   D  netflow   |-IP Version        : 4
+   D  netflow   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   D  netflow   |-Type Of Service   : 0
+   D  netflow   |-IP Total Length   : 116  Bytes(Size of Packet)
+   D  netflow   |-Identification    : 41910
+   D  netflow   |-TTL      : 64
+   D  netflow   |-Protocol : 17
+   D  netflow   |-Checksum : 7482
+   D  netflow   |-Source IP        : 10.215.173.1
+   D  netflow   |-Destination IP   : 192.168.1.8

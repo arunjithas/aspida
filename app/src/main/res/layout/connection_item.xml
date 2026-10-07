@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Each connection row:
+  [ status-strip | app-icon | app-name + badges | status + time ]
+                                                  [ protocol + host | traffic ]
+  The 3dp left strip is tinted at runtime to match connection status.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_height="72dp"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <!-- Colored left accent strip (tinted to status color in the adapter) -->
+    <View
+        android:id="@+id/status_stripe"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@color/statusOpen" />
+
+    <!-- App icon -->
+    <ImageView
+        android:id="@+id/icon"
+        android:adjustViewBounds="false"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="2dp"
+        tools:src="@drawable/ic_apps"
+        tools:tint="?attr/colorAccent" />
+
+    <!-- Main content area -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="8dp">
+
+        <!-- Row 1: app name + flag badges | status indicator -->
+        <LinearLayout
+            android:id="@+id/app_name_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/status_placeholder"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintHorizontal_bias="0">
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                tools:text="Chrome" />
+
+            <!-- Badge icons: JS inject, redirect, blacklist, block -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginStart="4dp">
+
+                <ImageView
+                    android:id="@+id/js_injector"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginEnd="3dp"
+                    app:tint="@color/colorTabText"
+                    android:contentDescription="@string/injected"
+                    android:src="@drawable/ic_baseline_javascript" />
+
+                <ImageView
+                    android:id="@+id/redirected"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginEnd="3dp"
+                    app:tint="@color/colorTabText"
+                    android:contentDescription="@string/redirected"
+                    android:src="@drawable/reply" />
+
+                <ImageView
+                    android:id="@+id/blacklisted"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginEnd="3dp"
+                    app:tint="@color/danger"
+                    android:contentDescription="@string/malicious_connection_filter"
+                    android:src="@drawable/ic_skull" />
+
+                <ImageView
+                    android:id="@+id/blocked"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    app:tint="@color/danger"
+                    android:src="@drawable/ic_block" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Invisible placeholder for status_ind width measurement -->
+        <TextView
+            android:id="@+id/status_placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/conn_status_unreachable" />
+
+        <!-- Status indicator (Active / Closed / etc.) -->
+        <TextView
+            android:id="@+id/status_ind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
+            android:textAlignment="textEnd"
+            app:layout_constraintTop_toTopOf="@id/app_name_layout"
+            app:layout_constraintBottom_toBottomOf="@id/app_name_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:textColor="@color/statusOpen"
+            tools:text="@string/conn_status_active" />
+
+        <!-- Row 2: protocol + host | last-seen time -->
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/last_seen"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintTop_toBottomOf="@id/app_name_layout">
+
+            <!-- Decryption status lock icon -->
+            <ImageView
+                android:id="@+id/decryption_status"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="3dp"
+                tools:tint="@color/ok"
+                tools:src="@drawable/ic_lock_open" />
+
+            <!-- Protocol label (e.g. "TLS · 443") -->
+            <TextView
+                android:id="@+id/l7proto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAccent"
+                android:singleLine="true"
+                tools:text="HTTPS" />
+
+            <!-- Bullet separator -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" · "
+                android:textSize="12sp"
+                android:textColor="@color/lightGray" />
+
+            <!-- Remote host -->
+            <TextView
+                android:id="@+id/remote"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:textColor="@color/lightGray"
+                tools:text="example.org" />
+        </LinearLayout>
+
+        <!-- Last-seen time (top-right of row 2) -->
+        <TextView
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/lightGray"
+            app:layout_constraintTop_toTopOf="@id/row2"
+            app:layout_constraintBottom_toBottomOf="@id/row2"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="17:15" />
+
+        <!-- Row 3: traffic bytes -->
+        <TextView
+            android:id="@+id/traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="end"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="105.4 MB" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

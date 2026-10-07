@@ -1,0 +1,70 @@
+{
+  "buildFiles": [
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/common/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/core/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/netflow/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/pcapd/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/submodules/zdtun/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/media/prithvi/ubuntu_bk/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/media/prithvi/ubuntu_bk/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "common::@bfc844598bd03e848b3c": {
+      "artifactName": "common",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86/common/libcommon.a",
+      "runtimeFiles": []
+    },
+    "zdtun::@40085d86cd9d0ebb510f": {
+      "artifactName": "zdtun",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86/zdtun_build/libzdtun.a",
+      "runtimeFiles": []
+    },
+    "ndpi::@57760688d1f824db5d9c": {
+      "artifactName": "ndpi",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/x86/libndpi.so",
+      "runtimeFiles": []
+    },
+    "netflow::@3eccbb2226ce57e5b79d": {
+      "artifactName": "netflow",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86/netflow/libnetflow.a",
+      "runtimeFiles": []
+    },
+    "pcap::@fbe3c65a18bf2cd355be": {
+      "artifactName": "pcap",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/x86/pcapd/libpcap.a",
+      "runtimeFiles": []
+    },
+    "capture::@57760688d1f824db5d9c": {
+      "artifactName": "capture",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/x86/libcapture.so",
+      "runtimeFiles": [
+        "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/x86/libndpi.so"
+      ]
+    },
+    "libpcapd.so::@fbe3c65a18bf2cd355be": {
+      "artifactName": "libpcapd.so",
+      "abi": "x86",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/x86/libpcapd.so",
+      "runtimeFiles": []
+    }
+  }
+}

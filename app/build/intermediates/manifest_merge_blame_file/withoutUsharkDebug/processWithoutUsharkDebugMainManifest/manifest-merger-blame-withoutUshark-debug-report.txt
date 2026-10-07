@@ -1,0 +1,428 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.emanuelef.remote_capture.debug"
+4    android:versionCode="89"
+5    android:versionName="1.8.8-beta" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:6:5-76
+12-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:7:22-64
+14
+15    <uses-permission-sdk-23 android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- https://developer.android.com/preview/privacy/package-visibility -->
+15-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:8:5-84
+15-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:8:29-81
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:9:5-77
+16-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.WRITE_CLIPS" />
+17-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:10:5-70
+17-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:10:22-67
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:11:5-110
+18-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:12:5-80
+19-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:13:5-76
+20-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+21-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:14:5-88
+21-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:14:22-86
+22
+23    <!-- Required with root to properly resolve UIDs cross-users/profiles. Granted via root -->
+24    <uses-permission
+24-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:17:5-153
+25        android:name="android.permission.INTERACT_ACROSS_USERS"
+25-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:17:22-77
+26        android:protectionLevel="signature" />
+26-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:17:78-113
+27
+28    <uses-feature
+28-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:19:5-87
+29        android:name="android.software.leanback"
+29-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:19:19-59
+30        android:required="false" />
+30-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:19:60-84
+31    <uses-feature
+31-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:20:5-90
+32        android:name="android.hardware.touchscreen"
+32-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:20:19-62
+33        android:required="false" />
+33-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:20:63-87
+34    <uses-feature
+34-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:21:5-83
+35        android:name="android.hardware.wifi"
+35-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:21:19-55
+36        android:required="false" />
+36-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:21:56-80
+37
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39
+40    <permission
+40-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+41        android:name="com.emanuelef.remote_capture.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.emanuelef.remote_capture.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:23:5-155:19
+47        android:name="com.emanuelef.remote_capture.Aspida"
+47-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:24:9-31
+48        android:allowBackup="true"
+48-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:31:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.13.1] /home/prithvi/.gradle/caches/8.13/transforms/080f6781dd2129c39c03d026689c3aa6/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+50        android:banner="@drawable/banner"
+50-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:28:9-42
+51        android:debuggable="true"
+52        android:extractNativeLibs="true"
+53        android:icon="@mipmap/ic_launcher"
+53-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:25:9-43
+54        android:label="@string/pcapdroid_app_name"
+54-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:26:9-51
+55        android:localeConfig="@xml/locales_config"
+55-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:33:9-51
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:27:9-54
+57        android:supportsRtl="true"
+57-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:29:9-35
+58        android:theme="@style/AppTheme" >
+58-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:30:9-40
+59        <activity
+59-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:36:9-47:20
+60            android:name="com.emanuelef.remote_capture.activities.MainActivity"
+60-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:37:13-52
+61            android:exported="true"
+61-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:40:13-36
+62            android:launchMode="singleTop"
+62-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:39:13-43
+63            android:theme="@style/AppTheme.SplashScreen" >
+63-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:38:13-57
+64            <intent-filter>
+64-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:42:13-46:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:43:17-69
+65-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:43:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:44:17-77
+67-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:44:27-74
+68                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+68-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:45:17-86
+68-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:45:27-83
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:49:9-53:39
+72            android:name="com.emanuelef.remote_capture.activities.CaptureCtrl"
+72-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:50:13-51
+73            android:exported="true"
+73-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:53:13-36
+74            android:launchMode="singleTop"
+74-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:52:13-43
+75            android:theme="@style/AppTheme.Floating" />
+75-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:51:13-53
+76        <activity
+76-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:54:9-56:79
+77            android:name="com.emanuelef.remote_capture.activities.prefs.EditCtrlPermissions"
+77-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:55:13-65
+78            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+78-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:56:13-76
+79        <activity android:name="com.emanuelef.remote_capture.activities.OnBoardingActivity" />
+79-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:58:9-59:61
+79-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:59:13-58
+80        <activity android:name="com.emanuelef.remote_capture.activities.ErrorActivity" />
+80-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:60:9-61:56
+80-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:61:13-53
+81        <activity android:name="com.emanuelef.remote_capture.activities.ConnectionDetailsActivity" />
+81-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:62:9-63:68
+81-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:63:13-65
+82        <activity android:name="com.emanuelef.remote_capture.activities.AppDetailsActivity" />
+82-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:64:9-65:61
+82-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:65:13-58
+83        <activity android:name="com.emanuelef.remote_capture.activities.ConnectionsActivity" />
+83-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:66:9-67:62
+83-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:67:13-59
+84        <activity
+84-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:68:9-71:69
+85            android:name="com.emanuelef.remote_capture.activities.AppsActivity"
+85-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:69:13-52
+86            android:launchMode="singleTop"
+86-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:70:13-43
+87            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+87-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:71:13-66
+88        <activity
+88-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:72:9-75:68
+89            android:name="com.emanuelef.remote_capture.activities.StatsActivity"
+89-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:73:13-53
+90            android:launchMode="singleTop"
+90-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:74:13-43
+91            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+91-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:75:13-66
+92        <activity
+92-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:76:9-79:68
+93            android:name="com.emanuelef.remote_capture.activities.DataUsageActivity"
+93-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:77:13-57
+94            android:launchMode="singleTop"
+94-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:78:13-43
+95            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+95-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:79:13-66
+96        <activity
+96-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:80:9-83:69
+97            android:name="com.emanuelef.remote_capture.activities.prefs.SettingsActivity"
+97-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:81:13-62
+98            android:launchMode="singleTop"
+98-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:82:13-43
+99            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+99-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:83:13-66
+100        <activity
+100-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:84:9-87:79
+101            android:name="com.emanuelef.remote_capture.activities.prefs.VpnExemptionsActivity"
+101-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:85:13-67
+102            android:launchMode="singleTop"
+102-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:86:13-43
+103            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+103-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:87:13-76
+104        <activity
+104-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:88:9-91:79
+105            android:name="com.emanuelef.remote_capture.activities.prefs.PortMapActivity"
+105-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:89:13-61
+106            android:launchMode="singleTop"
+106-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:90:13-43
+107            android:parentActivityName="com.emanuelef.remote_capture.activities.prefs.SettingsActivity" />
+107-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:91:13-76
+108        <activity
+108-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:92:9-95:69
+109            android:name="com.emanuelef.remote_capture.activities.AboutActivity"
+109-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:93:13-53
+110            android:launchMode="singleTop"
+110-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:94:13-43
+111            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+111-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:95:13-66
+112        <activity
+112-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:96:9-99:69
+113            android:name="com.emanuelef.remote_capture.activities.LogviewActivity"
+113-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:97:13-55
+114            android:launchMode="singleTop"
+114-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:98:13-43
+115            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+115-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:99:13-66
+116        <activity
+116-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:100:9-103:69
+117            android:name="com.emanuelef.remote_capture.activities.MalwareDetection"
+117-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:101:13-56
+118            android:launchMode="singleTop"
+118-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:102:13-43
+119            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+119-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:103:13-66
+120        <activity
+120-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:104:9-107:69
+121            android:name="com.emanuelef.remote_capture.activities.FirewallActivity"
+121-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:105:13-56
+122            android:launchMode="singleTop"
+122-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:106:13-43
+123            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+123-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:107:13-66
+124        <activity
+124-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:108:9-111:75
+125            android:name="com.emanuelef.remote_capture.activities.EditListActivity"
+125-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:109:13-56
+126            android:launchMode="singleTop"
+126-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:110:13-43
+127            android:parentActivityName="com.emanuelef.remote_capture.activities.EditFilterActivity" />
+127-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:111:13-72
+128        <activity
+128-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:112:9-114:46
+129            android:name="com.emanuelef.remote_capture.activities.EditFilterActivity"
+129-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:113:13-58
+130            android:launchMode="singleTop" />
+130-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:114:13-43
+131        <activity
+131-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:115:9-117:46
+132            android:name="com.emanuelef.remote_capture.activities.MitmSetupWizard"
+132-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:116:13-55
+133            android:launchMode="singleTop" />
+133-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:117:13-43
+134        <activity
+134-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:118:9-121:69
+135            android:name="com.emanuelef.remote_capture.activities.AppFilterActivity"
+135-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:119:13-57
+136            android:launchMode="singleTop"
+136-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:120:13-43
+137            android:parentActivityName="com.emanuelef.remote_capture.activities.MainActivity" />
+137-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:121:13-66
+138
+139        <service
+139-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:123:9-135:19
+140            android:name="com.emanuelef.remote_capture.CaptureService"
+140-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:124:13-43
+141            android:exported="false"
+141-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:127:13-37
+142            android:foregroundServiceType="specialUse"
+142-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:126:13-55
+143            android:permission="android.permission.BIND_VPN_SERVICE" >
+143-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:125:13-69
+144            <property
+144-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:129:13-130:80
+145                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+145-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:129:23-82
+146                android:value="run the VpnService to monitor network traffic" />
+146-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:130:17-78
+147
+148            <intent-filter>
+148-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:132:13-134:29
+149                <action android:name="android.net.VpnService" />
+149-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:133:17-65
+149-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:133:25-62
+150            </intent-filter>
+151        </service>
+152        <service
+152-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:136:9-143:19
+153            android:name="com.emanuelef.remote_capture.VpnReconnectService"
+153-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:137:13-48
+154            android:exported="false"
+154-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:139:13-37
+155            android:foregroundServiceType="specialUse" >
+155-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:138:13-55
+156            <property
+156-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:129:13-130:80
+157                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+157-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:129:23-82
+158                android:value="waits for the termination of the active VpnService" />
+158-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:130:17-78
+159        </service>
+160
+161        <receiver android:name="com.emanuelef.remote_capture.ActionReceiver" />
+161-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:145:9-80
+161-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:145:19-77
+162        <receiver
+162-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:147:9-154:20
+163            android:name="com.emanuelef.remote_capture.BootReceiver"
+163-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:148:13-41
+164            android:exported="false" >
+164-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:149:13-37
+165            <intent-filter>
+165-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:150:13-153:29
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+166-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:151:17-78
+166-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:151:25-76
+167                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+167-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:152:17-81
+167-->/home/prithvi/Documents/programs/android/aspida/app/src/main/AndroidManifest.xml:152:25-79
+168            </intent-filter>
+169        </receiver>
+170
+171        <activity
+171-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:12:9-14:49
+172            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+172-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:13:13-89
+173            android:process=":error_activity" />
+173-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:14:13-46
+174
+175        <provider
+175-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:16:9-20:39
+176            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+176-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:17:13-85
+177            android:authorities="com.emanuelef.remote_capture.debug.customactivityoncrashinitprovider"
+177-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:18:13-85
+178            android:exported="false"
+178-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:19:13-37
+179            android:initOrder="101" />
+179-->[cat.ereza:customactivityoncrash:2.3.0] /home/prithvi/.gradle/caches/8.13/transforms/644eda6e3ec88f82da5ebac4bbbabc99/transformed/jetified-customactivityoncrash-2.3.0/AndroidManifest.xml:20:13-36
+180        <provider
+180-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+181            android:name="androidx.startup.InitializationProvider"
+181-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+182            android:authorities="com.emanuelef.remote_capture.debug.androidx-startup"
+182-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+183            android:exported="false" >
+183-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+184            <meta-data
+184-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+185                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+185-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+186                android:value="androidx.startup" />
+186-->[androidx.emoji2:emoji2:1.3.0] /home/prithvi/.gradle/caches/8.13/transforms/d4b5f8f0a47fdd84f65fcdf43faa7e20/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+187            <meta-data
+187-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/prithvi/.gradle/caches/8.13/transforms/3f7ed772352070451ab9f199c37f88e7/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+188-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/prithvi/.gradle/caches/8.13/transforms/3f7ed772352070451ab9f199c37f88e7/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+189                android:value="androidx.startup" />
+189-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/prithvi/.gradle/caches/8.13/transforms/3f7ed772352070451ab9f199c37f88e7/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+191-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+192                android:value="androidx.startup" />
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+193        </provider>
+194
+195        <uses-library
+195-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+196            android:name="androidx.window.extensions"
+196-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+197            android:required="false" />
+197-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+198        <uses-library
+198-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+199            android:name="androidx.window.sidecar"
+199-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+200            android:required="false" />
+200-->[androidx.window:window:1.0.0] /home/prithvi/.gradle/caches/8.13/transforms/0dac2a57692247126d73c73877b63c9f/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+201
+202        <receiver
+202-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+203            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+203-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+204            android:directBootAware="false"
+204-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+205            android:enabled="true"
+205-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+206            android:exported="true"
+206-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+207            android:permission="android.permission.DUMP" >
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+208            <intent-filter>
+208-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+209                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+210            </intent-filter>
+211            <intent-filter>
+211-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+212                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+212-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+212-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+213            </intent-filter>
+214            <intent-filter>
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+215                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+215-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+215-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+216            </intent-filter>
+217            <intent-filter>
+217-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+218                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+218-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+218-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/prithvi/.gradle/caches/8.13/transforms/bd102c445930940b7ffe3c4d3b49267c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+219            </intent-filter>
+220        </receiver>
+221    </application>
+222
+223</manifest>

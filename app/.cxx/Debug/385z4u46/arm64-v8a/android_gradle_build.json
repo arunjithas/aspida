@@ -1,0 +1,83 @@
+{
+  "buildFiles": [
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/common/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/core/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/netflow/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/app/src/main/jni/pcapd/CMakeLists.txt",
+    "/home/prithvi/Documents/programs/android/aspida/submodules/zdtun/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/prithvi/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/prithvi/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "capture::@57760688d1f824db5d9c": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "capture",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/arm64-v8a/libcapture.so",
+      "runtimeFiles": [
+        "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/arm64-v8a/libndpi.so"
+      ]
+    },
+    "common::@bfc844598bd03e848b3c": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "common",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a/common/libcommon.a"
+    },
+    "libpcapd.so::@fbe3c65a18bf2cd355be": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "libpcapd.so",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/arm64-v8a/libpcapd.so",
+      "runtimeFiles": []
+    },
+    "ndpi::@57760688d1f824db5d9c": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ndpi",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/build/intermediates/cxx/Debug/385z4u46/obj/arm64-v8a/libndpi.so",
+      "runtimeFiles": []
+    },
+    "netflow::@3eccbb2226ce57e5b79d": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "netflow",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a/netflow/libnetflow.a"
+    },
+    "pcap::@fbe3c65a18bf2cd355be": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "pcap",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a/pcapd/libpcap.a"
+    },
+    "zdtun::@40085d86cd9d0ebb510f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "zdtun",
+      "output": "/home/prithvi/Documents/programs/android/aspida/app/.cxx/Debug/385z4u46/arm64-v8a/zdtun_build/libzdtun.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/prithvi/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/prithvi/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

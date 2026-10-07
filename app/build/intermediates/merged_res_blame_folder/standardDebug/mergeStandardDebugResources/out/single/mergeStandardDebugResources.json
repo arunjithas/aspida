@@ -1,0 +1,670 @@
+[
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_add_rule_dialog.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/add_rule_dialog.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_app_installed_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/app_installed_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_stacked_bar_chart.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_stacked_bar_chart.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_active_filter_chip.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/active_filter_chip.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_play_arrow.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_play_arrow.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_exclamation_triangle_solid.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_exclamation_triangle_solid.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_nav_header.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/nav_header.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_malware_detection_status.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/malware_detection_status.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_shield.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_main_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/main_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_choice_chip.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/choice_chip.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_reply.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/reply.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_dropdown_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/dropdown_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_connections_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/connections_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_simple_list.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/simple_list.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/anim_slide_in_left.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_port_mapping_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/port_mapping_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/xml_geoip_preferences.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/xml/geoip_preferences.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_search.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_filter.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_filter.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_app_overview_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/app_overview_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_scrollable_dialog.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/scrollable_dialog.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_mitm_wizard_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/mitm_wizard_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-mdpi_banner.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-mdpi/banner.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_tabs_activity_fixed.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/tabs_activity_fixed.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_media_stop.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_media_stop.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_port_mapping_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/port_mapping_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/anim_slide_in_right.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_book.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_edit_filter_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/edit_filter_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_legend_dot_rcvd.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/legend_dot_rcvd.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_app_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/app_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_malware_notification.jpg.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/malware_notification.jpg"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_connections.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/connections.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_help.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_help.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_blacklist_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/blacklist_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_dump_modes.jpg.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/dump_modes.jpg"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_log_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/log_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_edit_filter_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/edit_filter_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_file_export.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_file_export.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_bug.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_bug.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_add.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/navigation_mitm_wizard_graph.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/navigation/mitm_wizard_graph.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_money.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_money.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_payload_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/payload_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_connection_payload.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/connection_payload.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_content_copy.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_content_copy.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_rounded_bg.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/rounded_bg.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_splash_screen.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/splash_screen.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_ctrl_permissions_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/ctrl_permissions_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_block.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_block.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_simple_list_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/simple_list_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_about_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/about_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_list_edit_cab.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/list_edit_cab.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_malware_detection_blacklists.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/malware_detection_blacklists.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_nav_items.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/nav_items.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_lock_open_alt.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_lock_open_alt.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_select_all.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_select_all.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_external.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_external.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_save_alt_small.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_save_alt_small.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_drawer_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/drawer_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_content_copy_small.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_content_copy_small.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_app_overview.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/app_overview.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_fragment_mitm_wizard.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/fragment_mitm_wizard.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_apps.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_apps.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/anim_slide_out_left.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_apps_stats.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/apps_stats.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_hourglass_top.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_hourglass_top.xml"
+    },
+    {
+        "merged": "com.emanuelef.remote_capture.app-standardDebug-50:/layout_connections.xml.flat",
+        "source": "com.emanuelef.remote_capture.app-main-52:/layout/connections.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_status.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/status.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_about_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/about_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_app_context_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/app_context_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_share.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-v23_splash_screen.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable-v23/splash_screen.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_activity_stats.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_info.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_baseline_javascript.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_baseline_javascript.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_settings.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/xml_dns_preferences.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/xml/dns_preferences.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_docs_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/docs_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_save.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_save.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_lock_open.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_lock_open.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-anydpi-v24_ic_launcher_background.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-anydpi-v24/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_apps_selector.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/apps_selector.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_list_edit_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/list_edit_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/xml_locales_config.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/xml/locales_config.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_logo.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_copy_share_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/copy_share_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_connection_overview.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/connection_overview.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_connection_context_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/connection_context_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_app_crash.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_app_crash.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_close.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_firewall_status.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/firewall_status.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_firewall_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/firewall_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_skull.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_skull.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_reset.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_reset.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_search_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/search_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_banner.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/banner.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_refresh.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_blacklists_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/blacklists_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_text_snippet.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_text_snippet.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_main_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_quick_settings_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/quick_settings_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_copyright.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_copyright.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_hint_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/hint_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_error_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/error_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_lock.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.emanuelef.remote_capture.app-standardDebug-50:/layout_connection_item.xml.flat",
+        "source": "com.emanuelef.remote_capture.app-main-52:/layout/connection_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_location_dot.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_location_dot.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_tabs_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/tabs_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-hdpi_banner.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-hdpi/banner.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-television-xhdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-television-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_check_solid.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_check_solid.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_logview_fragment.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/logview_fragment.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.emanuelef.remote_capture.app-standardDebug-50:/drawable_notice_banner_bg.xml.flat",
+        "source": "com.emanuelef.remote_capture.app-main-52:/drawable/notice_banner_bg.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_firewall_block.jpg.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/firewall_block.jpg"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_arrow_drop_down.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_add_port_mapping_dialog.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/add_port_mapping_dialog.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-xhdpi_banner.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-xhdpi/banner.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_expand_more.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_legend_dot_sent.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/legend_dot_sent.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_activity_data_usage.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/activity_data_usage.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_connection_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/connection_item.xml"
+    },
+    {
+        "merged": "com.emanuelef.remote_capture.app-standardDebug-50:/layout_connection_overview.xml.flat",
+        "source": "com.emanuelef.remote_capture.app-main-52:/layout/connection_overview.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/anim_slide_out_right.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_file_import.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_file_import.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_telegram.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_telegram.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/xml_socks5_preferences.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/xml/socks5_preferences.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/xml_root_preferences.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/xml/root_preferences.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_http_inspection.jpg.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/http_inspection.jpg"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_image.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_image.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_sort.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_sort.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_connection_payload.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/connection_payload.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standard-46:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_ctrl_consent.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/ctrl_consent.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_fragment_activity.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/fragment_activity.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_rule_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/rule_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/menu_apps_menu.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/menu/apps_menu.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/font_sourcecodepro_regular.ttf.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/font/sourcecodepro_regular.ttf"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_shopping_cart.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_shopping_cart.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_app_selection_item.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/app_selection_item.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/drawable_ic_short_text.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/drawable/ic_short_text.xml"
+    },
+    {
+        "merged": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-standardDebug-50:/layout_license_dialog.xml.flat",
+        "source": "/home/prithvi/.gradle/daemon/8.13/com.emanuelef.remote_capture.app-main-52:/layout/license_dialog.xml"
+    }
+]

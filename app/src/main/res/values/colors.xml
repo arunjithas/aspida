@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTab">#42A5F5</color>
+    <color name="colorTabText">#90CAF9</color>
+    <color name="colorTabTextSelected">#FFFFFF</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <color name="colorActionBar">#0D47A1</color>
+    <color name="colorAccent">#00ACC1</color>
+    <color name="colorAccentLight">#80DEEA</color>
+    <color name="colorBackgroundGray">#1A000000</color>
+    <color name="navViewBackground">@color/design_default_color_surface</color>
+    <color name="backgroundColor">@color/background_material_light</color>
+    <color name="drawerItemColor">#37474F</color>
+    <color name="statusOpen">#00C853</color>
+    <color name="statusClosed">#90A4AE</color>
+    <color name="statusError">#E53935</color>
+    <color name="ok">#00C853</color>
+    <color name="warning">#FFB300</color>
+    <color name="danger">#E53935</color>
+    <color name="in_progress">#039BE5</color>
+    <color name="highContrast">#000000</color>
+    <color name="sentPayloadBg">#FFF3E0</color>
+    <color name="sentPayloadFg">#BF360C</color>
+    <color name="rcvdPayloadBg">#E3F2FD</color>
+    <color name="rcvdPayloadFg">#0D47A1</color>
+    <color name="lightGray">#B0BEC5</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="sectionDivider">#ECEFF1</color>
+</resources>

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zdtun_build",
+		"source" : "/home/prithvi/Documents/programs/android/aspida/submodules/zdtun"
+	}
+}

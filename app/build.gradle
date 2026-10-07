@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+
+android {
+    ndkVersion "28.2.13676358"
+
+    defaultConfig {
+        applicationId "com.emanuelef.remote_capture"
+        minSdkVersion 21
+        compileSdk 35
+        targetSdk 35
+        versionCode 89
+        versionName "1.8.8"
+
+        // only include full translations
+        // NOTE: keep in sync with locales_config.xml
+        resourceConfigurations += ["en", "ar", "az", "de", "es", "in", "it", "pl", "ru", "ta", "tr",
+                                   "uk", "zh-rCN"]
+    }
+
+    flavorDimensions = ["type"]
+
+    productFlavors {
+        /* Note: alphabetical order determines the default flavor, which is standard */
+        standard {
+            dimension "type"
+        }
+
+        withoutUshark {
+            dimension "type"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            // Use a different app ID for debug to allow its coexistence with release builds
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-beta'
+            pseudoLocalesEnabled true
+
+            if(project.hasProperty("doNotStrip")) {
+                // NOTE: packagingOptions will also affect the "release" build, so the "doNotStrip"
+                // guard is required
+                packagingOptions {
+                    // NOTE: unstripped nDPI library takes up about 4 MB!
+                    //doNotStrip '**.so'
+                    doNotStrip '**/libpcapd.so'
+                    doNotStrip '**/libcapture.so'
+                }
+            }
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    packagingOptions {
+        jniLibs {
+            // NOTE: needed to unpack libpcapd.so when installed as app bundle
+            useLegacyPackaging = true
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path file('src/main/jni/CMakeLists.txt')
+            version "3.22.1"
+        }
+    }
+
+    compileOptions {
+        encoding "UTF-8"
+        coreLibraryDesugaringEnabled true // support devices running older Java versions
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets {
+        main.java.srcDirs += '../submodules/MaxMind-DB-Reader-java/src/main/java'
+
+        // Note: must use "setRoot" to make this a per-flavor setting
+        standard.setRoot('../submodules/PCAPdroid-ushark-bin/release')
+    }
+
+    testOptions {
+        // needed by robolectric
+        unitTests.includeAndroidResources = true
+    }
+    namespace 'com.emanuelef.remote_capture'
+}
+
+dependencies {
+// Tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'androidx.test:core:1.7.0'
+    testImplementation "org.robolectric:robolectric:4.16"
+
+// AndroidX
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.fragment:fragment:1.8.9'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation 'androidx.recyclerview:recyclerview:1.4.0'
+    implementation "androidx.navigation:navigation-fragment:2.9.3"
+    implementation "androidx.navigation:navigation-ui:2.9.3"
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+
+// Google
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'org.brotli:dec:0.1.2'
+
+// Third-party
+    implementation 'cat.ereza:customactivityoncrash:2.3.0'
+    implementation 'com.github.KaKaVip:Android-Flag-Kit:v0.1'
+    implementation 'com.github.AppIntro:AppIntro:6.2.0'
+    implementation 'com.github.androidmads:QRGenerator:1.0.1'
+}
